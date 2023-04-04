@@ -1,0 +1,114 @@
+
+body{background-color: black;
+    background-image: url('img/nekopara-azuki.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lucida';
+    font-size: 40px;
+    color: blue;
+    font-style: italic;
+    
+    
+  
+   
+    
+}
+
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    padding: 5px;
+   color: white;
+  
+   
+}
+#author-name-and-date{
+ text-align: center;
+ font-family: Tahoma;
+ font-size: 18px;   
+ font: bold;
+ color: white;
+}
+img{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ ol{
+    
+    font-family: 'Tahoma';
+    font-size: 24px;
+    color: white;
+}
+p{
+    text-align: center;
+    font-family: 'Tahoma';
+    font-size: 24px;
+    color: white;
+ 
+    
+    
+}
+p{
+    text-align: center;
+    font-family: 'Tahoma';
+    font-size: 14px;
+    color: white;
+    
+    
+}
+a{  text-align: center;
+    font-family: Georgia;
+    font-size: 26px;
+    color: lightblue;
+    border: 1px solid black;
+    display: inline;
+
+}
+
+a:visited{  text-align: center;
+    font-family: Georgia;
+    font-size: 14px;
+    color: hotpink;
+    border: 1px solid black;
+    display: inline;
+}
+td {
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 26px;
+
+}
+
+h3{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    padding: 5px;
+   color: white;
+  
+   
+}
+
+/*   Checklist
+-Make sure clicked links are displayed in a different color
+-Dark mode implementation
+-Navigation menu styling
+*/

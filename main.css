@@ -1,0 +1,131 @@
+
+h1{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lucida';
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+    background-color: red;
+    
+    
+}
+li {
+    size: 24px;
+    margin: 2;
+    padding: 5px;
+    border: 1px solid black;
+    display:inline;
+  }
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    padding: 5px;
+   
+}
+
+#author-name-and-date{
+ text-align: center;
+ font-family: Tahoma;
+ font-size: 18px;
+ color: black;   
+ font: bold;
+}
+img{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ ol{
+    text-align: center;
+    font-family: 'Tahoma';
+    font-size: 16px;
+    color: gray;
+}
+p{
+    text-align: center;
+    font-family: 'Tahoma';
+    font-size: 16px;
+    color: gray;
+}
+a{  text-align: center;
+    font-family: Georgia;
+    font-size: 12px;
+    color: blue;
+
+}
+
+a:visited {  text-align: center;
+    font-family: Georgia;
+    font-size: 12px;
+    color: purple;
+
+}
+
+
+
+/* SECOND PAGE*/
+#author-name-and-date{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 18px;
+    color: black;   
+    font: bold;
+   }
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid black;
+
+
+}
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+tr:hover {
+    background-color: red;
+    border: 1px solid black;
+}
+
+a{  text-align: center;
+    font-family: Georgia;
+    font-size: 26px;
+    color: blue;
+    
+
+}
+
+a:visited {  text-align: center;
+    font-family: Georgia;
+    font-size: 12px;
+    color: purple;
+
+}
+h3{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lucida';
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+    
+}
+
+img{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-size: 26px;
+
+}
+
+/*    TO BE COMPLETED
+-Make sure clicked links are displayed in a different color
+-Animations/Gifs of abir working out
+-Light mode implementation
+*/
