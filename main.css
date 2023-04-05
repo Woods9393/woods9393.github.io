@@ -60,12 +60,23 @@ a{  text-align: center;
 a:visited {  text-align: center;
     font-family: Georgia;
     font-size: 12px;
-    color: purple;
+    color: darkred;
 
 }
 
-
-
+.table-hover tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+ /*Adds scroll bar on small screens */
+  @media (max-width: 767px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  }
+.center-headers{
+    text-align: center;
+}
 /* SECOND PAGE*/
 #author-name-and-date{
     text-align: center;
@@ -74,6 +85,12 @@ a:visited {  text-align: center;
     color: black;   
     font: bold;
    }
+
+#Abirousel{
+    width: 500px;
+    margin: auto;
+    
+}
 table{
     border: 1px solid black;
     border-collapse: collapse;
@@ -82,6 +99,11 @@ table{
 
 
 }
+
+.carousel-indicators{
+    background-color: darkred;
+}
+
 td {
     text-align: center;
     border: 1px solid black;
@@ -102,7 +124,7 @@ a{  text-align: center;
 a:visited {  text-align: center;
     font-family: Georgia;
     font-size: 12px;
-    color: purple;
+    color: darkred;
 
 }
 h3{
@@ -124,6 +146,23 @@ p{
 
 }
 
+.nav-item {
+
+   display: inline-block;
+   text-align: center;
+   padding: 14px;
+   font-size: 17px;
+   font-weight: bolder;
+
+}
+
+.nav-item:hover {
+    color: red;
+  }
+
+  h4{
+    font-size: 12px;
+  }
 /*    TO BE COMPLETED
 -Make sure clicked links are displayed in a different color
 -Animations/Gifs of abir working out
